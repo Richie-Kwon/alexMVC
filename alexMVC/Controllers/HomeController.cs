@@ -16,11 +16,15 @@ namespace alexMVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly PubsDbContext _pubsDbContext;
 
-        public HomeController(ILogger<HomeController> logger, IWebHostEnvironment webHostEnvironment)
+        public HomeController(ILogger<HomeController> logger,
+            IWebHostEnvironment webHostEnvironment,
+            PubsDbContext PubsDb)
         {
-            _logger = logger;
-            _webHostEnvironment = webHostEnvironment;
+            _logger = logger;  
+            // _webHostEnvironment = webHostEnvironment;
+            _pubsDbContext = pubsDb;
         }
 
         public IActionResult Index()
@@ -35,11 +39,12 @@ namespace alexMVC.Controllers
         
         public IActionResult AuthorList()
         {
-            string path = Path.Combine(_webHostEnvironment.ContentRootPath, "authors.txt");
-            string jsonStr =System.IO.File.ReadAllText(path);
-            // List<Author> authors = new List<Author>();
-            List<Author> authors = JsonSerializer.Deserialize<List<Author>>(jsonStr);
-            return View(authors);   
+            // string path = Path.Combine(_webHostEnvironment.ContentRootPath, "authors.txt");
+            // string jsonStr =System.IO.File.ReadAllText(path);
+            // // List<Author> authors = new List<Author>();
+            // List<Author> authors = JsonSerializer.Deserialize<List<Author>>(jsonStr);
+            // return View(authors);  
+            
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -2,12 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using alexMVC.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 
 namespace alexMVC
 {
@@ -24,6 +27,16 @@ namespace alexMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+          
+            // EF Core
+            string connString = Configuration["ConnectionStrings:Pubs"];
+            services.AddDbContext<PubsDbContext>(
+                (options) => {options.UseSqlite(connString)});
+            // services.AddDbContext<PubsDbContexts>(
+            //     (options) => 
+            //     {options.UseSqlite("data source=(local);" +
+            //                        "initial catalog=pubs")})
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
