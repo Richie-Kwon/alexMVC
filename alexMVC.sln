@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pages", "pages\pages.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCoreWebApplication", "ASP.NETCoreWebApplication\ASP.NETCoreWebApplication.csproj", "{2D17F503-E1BD-497B-A8D0-7AAD226F4577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bluepopes", "bluepopes\bluepopes.csproj", "{F52C8E95-BF85-42C8-B17A-E6739E1F0D43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2D17F503-E1BD-497B-A8D0-7AAD226F4577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D17F503-E1BD-497B-A8D0-7AAD226F4577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D17F503-E1BD-497B-A8D0-7AAD226F4577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52C8E95-BF85-42C8-B17A-E6739E1F0D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C8E95-BF85-42C8-B17A-E6739E1F0D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C8E95-BF85-42C8-B17A-E6739E1F0D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C8E95-BF85-42C8-B17A-E6739E1F0D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
