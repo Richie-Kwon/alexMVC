@@ -1,0 +1,26 @@
+@{
+    var x = ViewData["x"] as string;
+    var y = ViewBag.y;
+}
+<div>
+    This is a test page.
+</div>
+
+<div>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>X</th>
+            <th>Y</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>@x</td>
+        </tr>
+        <tr>
+            <td>@y</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

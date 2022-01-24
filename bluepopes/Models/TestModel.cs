@@ -2,7 +2,7 @@ namespace bluepopes.Models
 {
     public class TestModel
     {
-        public int x { get; set; }
-        public string y { get; set; }
+        public int X { get; set; }
+        public string Y { get; set; }
     }
 }
