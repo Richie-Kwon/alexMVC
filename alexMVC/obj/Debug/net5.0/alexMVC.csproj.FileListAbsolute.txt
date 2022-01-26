@@ -1,0 +1,8 @@
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.csproj.AssemblyReference.cache
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.AssemblyInfoInputs.cache
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.AssemblyInfo.cs
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.csproj.CoreCompileInputs.cache
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.MvcApplicationPartsAssemblyInfo.cache
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.RazorAssemblyInfo.cache
+/Users/richie/RiderProjects/alexMVC/alexMVC/obj/Debug/net5.0/alexMVC.RazorAssemblyInfo.cs

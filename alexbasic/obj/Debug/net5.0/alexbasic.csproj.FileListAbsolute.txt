@@ -1,0 +1,15 @@
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/alexbasic.deps.json
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/alexbasic.runtimeconfig.json
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/alexbasic.runtimeconfig.dev.json
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/alexbasic.dll
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/ref/alexbasic.dll
+/Users/richie/RiderProjects/alexMVC/alexbasic/bin/Debug/net5.0/alexbasic.pdb
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.csproj.AssemblyReference.cache
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.AssemblyInfoInputs.cache
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.AssemblyInfo.cs
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.csproj.CoreCompileInputs.cache
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.dll
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/ref/alexbasic.dll
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.pdb
+/Users/richie/RiderProjects/alexMVC/alexbasic/obj/Debug/net5.0/alexbasic.genruntimeconfig.cache
