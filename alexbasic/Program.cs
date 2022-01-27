@@ -46,7 +46,12 @@ namespace alexbasic
                 sb.Append(i.ToString());
             }
 
-            Boarder b = Boarder.Bottom;
+            Boarder b = Boarder.Bottom | Boarder.Left | Boarder.Right | Boarder.Top;
+            if (b.HasFlag(Boarder.Bottom))
+            {
+                Console.WriteLine(b.ToString());
+            }
+
         }
     }
 }

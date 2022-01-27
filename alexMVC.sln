@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bluepopes", "bluepopes\blue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alexbasic", "alexbasic\alexbasic.csproj", "{7C60ED76-D176-4A07-AD10-35DC0B070BC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alexbasic2", "alexbasic2\alexbasic2.csproj", "{88D11DDD-D692-43C7-A547-AA38FB4802E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{7C60ED76-D176-4A07-AD10-35DC0B070BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C60ED76-D176-4A07-AD10-35DC0B070BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C60ED76-D176-4A07-AD10-35DC0B070BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D11DDD-D692-43C7-A547-AA38FB4802E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D11DDD-D692-43C7-A547-AA38FB4802E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D11DDD-D692-43C7-A547-AA38FB4802E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D11DDD-D692-43C7-A547-AA38FB4802E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
