@@ -22,5 +22,11 @@ namespace alexbasic2
                 Console.WriteLine(s);
             }
         }
+
+        static int[] Getallscores()
+        {
+            int[] scores = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+            return scores;
+        }
     }
 } 
