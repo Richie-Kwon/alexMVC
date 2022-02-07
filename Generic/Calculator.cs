@@ -1,6 +1,6 @@
 namespace Generic
 {
-    public class Calculator<T>
+    public class Calculator<T> where T: struct
     {
         public T Add(T a, T b)
         {
