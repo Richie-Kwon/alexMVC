@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -53,6 +57,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
             }
           },
           "imports": [
