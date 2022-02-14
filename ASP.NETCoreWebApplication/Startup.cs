@@ -14,6 +14,8 @@ namespace ASP.NETCoreWebApplication
         {
             Configuration = configuration;
         }
+        
+        string connString= Configuration["ConnectionStrings:Pubs"]
 
         public IConfiguration Configuration { get; }
 

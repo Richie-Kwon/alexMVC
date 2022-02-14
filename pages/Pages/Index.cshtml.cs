@@ -19,6 +19,7 @@ namespace pages.Pages
 
         public void OnGet()
         {
+            Logger<Exception>
         }
     }
 }
